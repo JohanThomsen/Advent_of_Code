@@ -2,11 +2,11 @@ input = open("6th\input.txt", "r")
 input = input.read()
 
 def check_unique(str):
-  for i in range(len(str)):
-    for j in range(i + 1,len(str)):
-      if(str[i] == str[j]):
-        return False
-  return True
+    for i in range(len(str)):
+        for j in range(i + 1,len(str)):
+           if(str[i] == str[j]):
+                return False
+    return True
 
 #task1
 for i in range(0, len(input) - 1):
