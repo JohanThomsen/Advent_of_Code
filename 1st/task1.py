@@ -1,4 +1,4 @@
-input = open("first\input.txt", "r")
+input = open("1st\input.txt", "r")
 lines = input.readlines()
 
 

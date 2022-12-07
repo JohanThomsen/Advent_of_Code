@@ -1,4 +1,4 @@
-input = open("second\input.txt", "r")
+input = open("2nd\input.txt", "r")
 lines = input.readlines()
 #task 1
 def get_shape_points(shape):
